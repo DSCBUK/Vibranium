@@ -1,0 +1,6 @@
+node_modules/
+.firebase/
+.firebaserc
+database.rules.json
+firebase.json
+storage.rules
