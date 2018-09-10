@@ -1,10 +1,10 @@
 var config = {
-    apiKey: "XXXXXXXXXXXXXXXXXXXXXX",
-    authDomain: "XXXXXXXXXXXXXXXXXXXXXX",
-    databaseURL: "XXXXXXXXXXXXXXXXXXXXXX",
-    projectId: "XXXXXXXXXXXXXXXXXXXXXX",
-    storageBucket: "XXXXXXXXXXXXXXXXXXXXXX",
-    messagingSenderId: "XXXXXXXXXXXXXXXXXXXXXX"
+    apiKey: "AIzaSyBpZrcWwGSywirzcy_p5S-e9EIrHgQYSck",
+    authDomain: "dsc-buk.firebaseapp.com",
+    databaseURL: "https://dsc-buk.firebaseio.com",
+    projectId: "dsc-buk",
+    storageBucket: "dsc-buk.appspot.com",
+    messagingSenderId: "953334177542"
 };
 firebase.initializeApp(config);
 
