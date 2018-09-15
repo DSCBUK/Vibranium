@@ -4,7 +4,7 @@
 
 # Project Vibranium 🔥
 
-This is DSC BUK clone of the awesome Progressive Web App created for [DSC SSA Communities](https://github.com/DSCLEADSAfrica). We are using this a platform for profile creation as well as platform to showcase our members success stories, upcoming and past events in pictures & event slides to the world.
+This is DSC-BUK fork of the awesome Progressive Web App created for [DSC SSA Communities](https://github.com/DSCLEADSAfrica). We are using this a platform for profile creation as well as platform to showcase our members success stories, upcoming and past events in pictures & event slides to the world.
 
 [Live Demo](https://dsc-buk.firebaseapp.com)
 
