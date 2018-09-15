@@ -8,21 +8,20 @@ var config = {
 };
 firebase.initializeApp(config);
 
-let messagesRef = firebase.database().ref('messages');
+let messagesRef = firebase.database().ref("messages");
 
-document.getElementById('mailform').addEventListener('submit', submitForm);
+document.getElementById("mailform").addEventListener("submit", submitForm);
 
 function submitForm(e) {
     e.preventDefault();
-    let email = getInputVal('email');
+    let email = getInputVal("email");
     saveMessage(email);
     console.log("Bikini tops");
-    document.querySelector('.alert').style.display = 'block';
-    setTimeout(function () {
-        document.querySelector('.alert').style.display = 'none';
+    document.querySelector(".alert").style.display = "block";
+    setTimeout(function() {
+        document.querySelector(".alert").style.display = "none";
     }, 5000);
-    document.getElementById('mailform').reset();
-
+    document.getElementById("mailform").reset();
 }
 
 function getInputVal(id) {
