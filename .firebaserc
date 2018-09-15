@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "dsc-buk"
+    "default": "dsc-buk",
+    "staging": "dsc-buk"
   }
 }
