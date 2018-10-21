@@ -4,3 +4,5 @@ node_modules/
 database.rules.json
 firebase.json
 storage.rules
+members/
+profiles/
