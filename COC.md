@@ -1,4 +1,6 @@
-CODE OF CONDUCT
+# CODE OF CONDUCT
+
+
 All members of the developers club are required to agree with the following code of conduct. The CoC team will enforce this code throughout the event and we expect cooperation from all participants to ensure a safe environment for everybody. Details of the CoC are as follows:
 We do not tolerate harassment of the participants in any form. Harassment includes offensive verbal comments related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, tribe, nationality, religion or political views, sexual images in public spaces, deliberate intimidation, stalking, following, photography or audio/video recording against reasonable consent, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.
 Photography is encouraged, but other participants must be given a reasonable chance to opt out from being photographed. If they object to the taking of their photograph, comply with their request. It is inappropriate to take photographs in contexts where people have a reasonable expectation of privacy (in bathrooms or where participants are sleeping).
