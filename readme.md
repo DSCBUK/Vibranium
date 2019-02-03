@@ -3,28 +3,63 @@
 </p>
 
 # Project Vibranium 🔥
+This awesome Progressive Web App was created for Developer Student Clubs in Sub Saharan Africa as a profile and a platform to showcase what they're upto in events, outreach to local businesses and showcases and most importantly their success stories to the world.
 
-This is DSC-BUK fork of the awesome Progressive Web App created for [DSC SSA Communities](https://github.com/DSCLEADSAfrica). We are using this a platform for profile creation as well as platform to showcase our members success stories, upcoming and past events in pictures & event slides to the world.
 
-[Live Demo](https://dsc-buk.firebaseapp.com)
+![](https://img.shields.io/badge/Built%20by-DSC%20Sub%20Saharan%20Africa-brightgreen.svg)
+![](https://img.shields.io/github/forks/kelvinkamau/Vibranium.svg?style=social)
+![](https://img.shields.io/github/issues/kelvinkamau/Vibranium.svg)
+![](https://img.shields.io/maintenance/yes/2019.svg)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/9ec27af46e31459f9c11a4c1f5ff6f71)](https://www.codacy.com/app/kamaucodes/Vibranium?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=kelvinkamau/Vibranium&amp;utm_campaign=Badge_Grade)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fkelvinkamau%2FVibranium.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fkelvinkamau%2FVibranium?ref=badge_shield)
+
+[Live Demo 1](https://vibranium-demo.firebaseapp.com) 
+
+[Special Holiday Edition](https://github.com/kelvinkamau/Vibranium/releases/tag/v.0.2) by [Stella Kaniaru](https://github.com/stellakaniaru)
+
+## Creators 😎
+* [DSC Sub Saharan Africa Leads](https://github.com/DSCLEADSAfrica)
+
+
+## Usage
+* Fork repository and clone it locally
+* Customize the content inside the following files only ```index.html```, ```learn.html``` & ```project.html```
+* Publish your site
+* Share the goodness of this awesome web template by sharing it & leaving a star on the repo
 
 ### Firebase Hosting
+* Install Node.js (v8.9.4 or above)
+* launch command prompt/terminal 
+* cd documents
+* git clone https://github.com/kelvinkamau/Vibranium
+* cd Vibranium 
+* Install project dependencies: ```npm install or yarn```
+* Install Firebase CLI: ```npm i -g firebase-tools```or  ```yarn global add firebase-tools```
+* Create a new firebase project [here](https://console.firebase.google.com/)
+* Login into Firebase CLI: ```firebase login```
+* Type ```firebase init``` to create a firebase.json
+* Copy the static files (JS,CSS, Assets folders,index.html file) into a newly created 'Y' or 'N' folder
+* Add project from firebase console using ```firebase -add project-name```
+* Publish ```firebase deploy```
 
-Setup Environment
+## Improvements
 
--   Install Node.js (v8.9.4 or above)
--   Install Firebase CLI: `npm i -g firebase-tools`or `yarn global add firebase-tools`
--   Install project dependencies: `npm install or yarn`
--   Create a new firebase project [here](https://console.firebase.google.com/)
--   Login into Firebase CLI: `firebase login`
--   Publish `firebase deploy`
+* <s>Mobile site enhancements</s> ✔
+* <s>Add tutorials page</s> ✔
+* <s>Add projects showcase page</s> ✔
+* <s>Progressive Web App support</s> ✔
+* Push notifications support 📢
 
-### Improvements
-
--   <s>Mobile site enhancements</s> ✔
--   Auto-responder after user subscribes 💯
--   <s>Progressive Web App support</s> ✔
--   Push notifications support 📢
+## Updating
+Here is a git workflow for updating your fork (or downloaded copy) to the latest version:
+```git
+git remote add upstream https://github.com/kelvinkamau/Vibranium.git
+git fetch upstream
+git merge upstream/Vibranium
+# resolve the merge conflicts in your editor
+git add . -u
+git commit -m 'Updated to the latest version'
+```
 
 ## Contributing
 
@@ -39,10 +74,23 @@ Project Vibranium is an open source software project and You are encouraged to c
 -   A pull request with a breaking test would be super preferable here but isn't required
 
 ## Versioning
+This project uses [semver](https://semver.org) for versioning. Current version: v2.0.0
 
-This project uses [semver](https://semver.org) for versioning. Current version: v1.0.0
+## Websites using Project Vibranium
 
-###### You can buy Kevin a cup of coffee [here](https://www.buymeacoffee.com/EqeRlzLSc) ☕
+| Community Name | Location | Web App Link | 
+| --- | --- | --- | 
+| DSC Kisii University | Kenya | [Live Here](https://dsc-kisiiuni.firebaseapp.com/) |
+| DSC Taita Taveta University | Kenya | [Live Here](https://dsc-ttu.firebaseapp.com/) |
+| DSC Bayero University Kano | Nigeria | [Live Here](https://dscbuk.club/) |
+| DSC Yabatech | Nigeria | [Live Here](https://dscyabatech.firebaseapp.com/) |
+| SemaPay | Kenya | [Live Here](https://semapay.co.ke/) |
+| DSC University of Nairobi | Kenya | [Live Here](https://dsc-uon.firebaseapp.com) |
+| DSC FUTA | Nigeria | [Live Here](https://dscfuta.com) |
+| DSC IBBUL | Nigeria | [Live Here](https://dscibbul.club)
+
+
+#### Buy us a coffee [here](https://www.buymeacoffee.com/EqeRlzLSc) ☕
 
 ## License
 
@@ -67,3 +115,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fkelvinkamau%2FVibranium.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fkelvinkamau%2FVibranium?ref=badge_large)

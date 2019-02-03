@@ -6,7 +6,9 @@ self.addEventListener('fetch', function (event) {
                 console.log("fetch completed: " + event.request.url, networkResponse);
                 if (networkResponse) {
                     console.debug("updated cached page: " + event.request.url, networkResponse);
-                    cache.put(event.request, networkResponse.clone());
+                    if (event.request.method === 'GET' && networkResponse.type === 'basic') {
+                        cache.put(event.request, networkResponse.clone());
+                    }
                 }
                 return networkResponse;
             }, function (event) {
@@ -19,24 +21,24 @@ self.addEventListener('fetch', function (event) {
                             '/index.html',
                             '/index.html?homescreen=1',
                             '/?homescreen=1',
-                            '/css/animate.css',
                             '/css/bootstrap.min.css',
-                            '/css/fontawesome-all.min.css',
                             '/css/ionicons.min.css',
                             '/css/magnific-popup.css',
                             '/css/owl.carousel.min.css',
                             '/css/responsive.css',
                             '/css/styles.css',
                             '/css/swiper.min.css',
+                            '/images/assets/events/fba.png',
+                            '/images/assets/events/fbw.png',
+                            '/images/assets/events/rpj.png',
                             '/images/assets/hero-1-2.png',
-                            '/images/assets/logo.png',
                             '/images/assets/logo2.png',
-                            '/images/assets/team/anne.jpg',
-                            '/images/assets/team/kelvin.jpg',
-                            '/images/assets/team/teresa.png',
+                            '/images/assets/team/avatar.png',
                             '/images/assets/technologies/android.png',
                             '/images/assets/technologies/cloud.png',
+                            '/images/assets/technologies/mi.png',
                             '/images/assets/technologies/web.png',
+                            '/images/icon.png',
                             '/js/custom.js',
                             '/js/vendors/bootstrap.bundle.min.js',
                             '/js/vendors/jquery.easing.min.js',
@@ -44,9 +46,6 @@ self.addEventListener('fetch', function (event) {
                             '/js/vendors/jquery.min.js',
                             '/js/vendors/owl.carousel.min.js',
                             '/js/vendors/swiper.min.js',
-                            'https://www.google-analytics.com/analytics.js',
-                            'https://fonts.googleapis.com/css?family=Product+Sans',
-                            'https://use.fontawesome.com/releases/v5.2.0/css/all.css',
                             '/service-worker.js',
                             '/manifest.json',
                         ]);

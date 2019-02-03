@@ -7,8 +7,7 @@
     "name": "DSC Bayero University",
     "description": "Developer Student Clubs is a Google Developers program for university students to learn mobile and web development skills",
     "lang": "en-US",
-    "icons": [
-        {
+    "icons": [{
             "src": "images/icon.png",
             "sizes": "72x72",
             "type": "image/png"
